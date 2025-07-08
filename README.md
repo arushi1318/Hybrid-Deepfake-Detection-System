@@ -124,25 +124,25 @@ npm run preview
 ```
 deepfake-detection-system/
 ├── src/
-│   ├── components/           # React components
-│   │   ├── Header.tsx       # Navigation header
-│   │   ├── VideoUpload.tsx  # File upload interface
-│   │   ├── AnalysisDashboard.tsx  # Results visualization
-│   │   └── SystemMonitor.tsx      # Performance monitoring
-│   ├── backend/             # Python backend (simulated)
-│   │   ├── core/           # Core detection algorithms
+│   ├── components/                   # React components
+│   │   ├── Header.tsx                # Navigation header
+│   │   ├── VideoUpload.tsx           # File upload interface
+│   │   ├── AnalysisDashboard.tsx     # Results visualization
+│   │   └── SystemMonitor.tsx         # Performance monitoring
+│   ├── backend/                      # Python backend (simulated)
+│   │   ├── core/                     # Core detection algorithms
 │   │   │   ├── ascii_converter.py    # Novel ASCII conversion
 │   │   │   ├── feature_extractor.py  # Dual-path extraction
 │   │   │   ├── fusion_network.py     # Feature fusion
 │   │   │   └── temporal_analyzer.py  # BiLSTM analysis
-│   │   ├── utils/          # Utility modules
+│   │   ├── utils/                    # Utility modules
 │   │   │   ├── face_detector.py      # MTCNN face detection
 │   │   │   └── video_processor.py    # Video preprocessing
-│   │   └── main.py         # FastAPI server
-│   ├── types/              # TypeScript type definitions
-│   └── App.tsx            # Main application component
-├── public/                 # Static assets
-└── dist/                  # Production build
+│   │   └── main.py                   # FastAPI server
+│   ├── types/                        # TypeScript type definitions
+│   └── App.tsx                       # Main application component
+├── public/                           # Static assets
+└── dist/                             # Production build
 ```
 
 ## 🎯 Features
